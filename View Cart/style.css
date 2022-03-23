@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    background-color: #232F3E;
+    height: 110px;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+.home-logo {
+    height: 128px;
+    display: flex;
+    align-items: center;
+    margin-left: 43px;
+}
+.home-logo img {
+    width: 209px;
+    height: 88px;
+}
+
+.select-all-container {
+    width: 1244px;
+    height: 67px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.select-all-container p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.select-all {
+    width: 1244px;
+    height: 67px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    width: 38px;
+    height: 38px;
+    margin-left: 15px;
+}
+
+.select-all p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #737373;
+    margin-left: 10px;
+    
+}
+
+.select-item-container {
+    width: 1244px;
+    border: 1px solid #A9A5A5;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.select-store {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.store-label {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.store-label span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px ;
+    margin-left: 11px;
+}
+
+.select-store input {
+    margin-top: 5px;
+}
+
+.store-label img {
+    margin-left: 10px;
+}
+
+.qty-button button {
+    background-color: white;
+    font-size: 37px;
+    border: none;
+}
+
+.qty-button span {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px ;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #737373 ;
+    padding: 1px 8px;
+}
+.qty-button .minus {
+    margin-bottom: 10px;
+    font-size: 45px ;
+}
+
+.qty-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-container {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.item-container img {
+    width: 160px;
+    height: 160px;
+}
+
+.item-info {
+    margin-left: 20px;
+    width: 1000px;
+}
+
+.item-info .title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px ;
+    color: #737373;
+}
+
+.item-info .price {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px ;
+}
+
+.item-info .delete {
+    margin-left: 700px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.item-info .delete span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.item-info .delete span:hover {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.delete img {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    color: red;
+}
+
+footer {
+    background-color: #CED2D5;
+    height: 200px;
+}
+
+.navbar-bottom-container {
+    background-color: white;
+    border-top: 1px solid black;
+    height: 120px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-left: 1045px;
+    margin-top: 35px;
+   
+}
+.content span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px ;
+    color: #737373;
+}
+
+.content .price-total {
+    font-weight: 800;
+    color: #C92400;
+    margin-left: 15px;
+}
+
+.button-checkout-container {
+    margin-left: 20px;
+    
+}
+.button-checkout-container p {
+    background-color: #232F3E;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    width: 180px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.button-checkout-container p:hover {
+    background-color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #232F3E;
+    width: 180px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+    border-radius: 7px;
+    border: 1px solid #232F3E;
+    transition: 0.15s;
+    
+}
+
+.barang-container p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+}

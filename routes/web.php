@@ -63,7 +63,7 @@ Route::group(['middleware'=>'FrontLogin_middleware'],function (){
 Auth::routes(['register'=>false]);
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::group(['prefix'=>'admin','middleware'=>['auth','admin']],function (){
-    Route::get('/', [AdminController::class, 'index'])->name('admin_home');
+    Route::get('/homeAdmin', [AdminController::class, 'index'])->name('admin_home');
     /// Setting Area
     Route::get('/settings', [AdminController::class, 'settings']);
     Route::get('/check-pwd',[AdminController::class, 'chkPassword']);

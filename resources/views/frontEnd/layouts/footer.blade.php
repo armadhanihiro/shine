@@ -152,6 +152,7 @@
             <div class="row">
                 <p class="pull-left">Dibuatoleh © Kelompok 7.</p>
                 <p class="pull-right">Designed by <span><a target="_blank" href="#">Kelompok 7</a></span></p>
+
             </div>
         </div>
     </div>

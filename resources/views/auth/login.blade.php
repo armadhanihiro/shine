@@ -14,7 +14,7 @@
 <div id="loginbox">
     <form id="loginform" class="form-vertical" method="POST" action="{{ route('login') }}">
         <input type="hidden" name="_token" value="{{csrf_token()}}">
-        <div class="control-group normal_text"> <h3><img src="{{asset('img/logo.png')}}" alt="Logo" /></h3></div>
+        <div class="control-group normal_text"> <h3>SHINE</h3></div>
         <div class="control-group">
             <div class="controls">
                 <div class="main_input_box">

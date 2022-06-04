@@ -61,7 +61,7 @@ Route::group(['middleware'=>'FrontLogin_middleware'],function (){
 
 /* Admin Location */
 Auth::routes(['register'=>false]);
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/admin', [HomeController::class, 'index'])->name('admin');
 Route::group(['prefix'=>'admin','middleware'=>['auth','admin']],function (){
     Route::get('/homeAdmin', [AdminController::class, 'index'])->name('admin_home');
     /// Setting Area

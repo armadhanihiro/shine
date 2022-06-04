@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Session;
 class CheckOutController extends Controller
 {
     public function index(){
-        $countries=DB::table('countries')->get();
+        $countries=DB::table('users')->get();
         $user_login=User::where('id',Auth::id())->first();
         return view('checkout.index',compact('countries','user_login'));
     }
@@ -37,7 +37,6 @@ class CheckOutController extends Controller
                'address'=>$input_data['shipping_address'],
                'city'=>$input_data['shipping_city'],
                'state'=>$input_data['shipping_state'],
-               'country'=>$input_data['shipping_country'],
                'pincode'=>$input_data['shipping_pincode'],
                'mobile'=>$input_data['shipping_mobile']]);
        }else{
@@ -47,7 +46,6 @@ class CheckOutController extends Controller
                 'address'=>$input_data['shipping_address'],
                 'city'=>$input_data['shipping_city'],
                 'state'=>$input_data['shipping_state'],
-                'country'=>$input_data['shipping_country'],
                 'pincode'=>$input_data['shipping_pincode'],
                 'mobile'=>$input_data['shipping_mobile'],]);
        }
@@ -55,7 +53,6 @@ class CheckOutController extends Controller
             'address'=>$input_data['billing_address'],
             'city'=>$input_data['billing_city'],
             'state'=>$input_data['billing_state'],
-            'country'=>$input_data['billing_country'],
             'pincode'=>$input_data['billing_pincode'],
             'mobile'=>$input_data['billing_mobile']]);
        return redirect('/order-review');

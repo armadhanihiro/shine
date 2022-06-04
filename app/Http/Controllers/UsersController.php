@@ -41,7 +41,7 @@ class UsersController extends Controller
         return redirect('/');
     }
     public function account(){
-        $countries=DB::table('countries')->get();
+        $countries=DB::table('users')->get();
         $user_login=User::where('id',Auth::id())->first();
         return view('users.account',compact('countries','user_login'));
     }
@@ -57,7 +57,6 @@ class UsersController extends Controller
             'address'=>$input_data['address'],
             'city'=>$input_data['city'],
             'state'=>$input_data['state'],
-            'country'=>$input_data['country'],
             'pincode'=>$input_data['pincode'],
             'mobile'=>$input_data['mobile']]);
         return back()->with('message','Update Profile already!');

@@ -52,7 +52,8 @@
                                             value="{{ $cart_data->quantity }}" autocomplete="off" size="2">
                                         @if ($cart_data->quantity > 1)
                                             <a class="cart_quantity_down"
-                                                href="{{ url('/cart/update-quantity/' . $cart_data->id . '/-1') }}"> - </a>
+                                                href="{{ url('/cart/update-quantity/' . $cart_data->id . '/-1') }}"> -
+                                            </a>
                                         @endif
                                     </div>
                                 </td>
@@ -60,7 +61,8 @@
                                     <p class="cart_total_price">$ {{ $cart_data->price * $cart_data->quantity }}</p>
                                 </td>
                                 <td class="cart_delete">
-                                    <a class="cart_quantity_delete" href="{{ url('/cart/deleteItem', $cart_data->id) }}"><i
+                                    <a class="cart_quantity_delete"
+                                        href="{{ url('/cart/deleteItem', $cart_data->id) }}"><i
                                             class="fa fa-times"></i></a>
                                 </td>
                             </tr>

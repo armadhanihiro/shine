@@ -17,7 +17,7 @@ class AddMoreFieldsToUsersTable extends Migration
             $table->text('address')->nullable();
             $table->string('city')->nullable();
             $table->string('state')->nullable();
-            $table->string('country')->nullable();
+            // $table->string('country')->nullable();
             $table->string('pincode')->nullable();
             $table->string('mobile')->nullable();
         });
@@ -31,7 +31,7 @@ class AddMoreFieldsToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn(['address','city','state','country','pincode','mobile']);
+            $table->dropColumn(['address','city','state','pincode','mobile']);
         });
     }
 }

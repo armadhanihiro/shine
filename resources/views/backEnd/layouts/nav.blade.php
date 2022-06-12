@@ -14,12 +14,12 @@
                 <li><a href="{{route('product.index')}}">List Products</a></li>
             </ul>
         </li>
-        <!-- <li class="submenu {{$menu_active==4? ' active':''}}"> <a href="#"><i class="icon icon-th-list"></i> <span>Coupons</span></a>
+        <li class="submenu {{$menu_active==4? ' active':''}}"> <a href="#"><i class="icon icon-th-list"></i> <span>Coupons</span></a>
             <ul>
                 <li><a href="{{route('coupon.create')}}">Add New Coupon</a></li>
                 <li><a href="{{route('coupon.index')}}">List Coupons</a></li>
             </ul>
-        </li> -->
+        </li>
     </ul>
 </div>
 <!--sidebar-menu-->

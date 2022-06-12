@@ -21,7 +21,6 @@ class CreateDeliveryAddressTable extends Migration
             $table->string('address');
             $table->string('city');
             $table->string('state');
-            $table->string('country');
             $table->string('pincode');
             $table->string('mobile');
             $table->timestamps();

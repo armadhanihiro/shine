@@ -17,9 +17,9 @@
         <div class="product-details"><!--product-details-->
 
             <div class="col-sm-5">
-                <div class="easyzoom easyzoom--overlay easyzoom--with-thumbnails">
+                <div class="">
                     <a href="{{url('products/large',$detail_product->image)}}">
-                        <img src="{{url('products/small',$detail_product->image)}}" alt="" id="dynamicImage"/>
+                        <img src="{{url('products/small',$detail_product->image)}}" alt="" id="dynamicImage" width="350" height="350"/>
                     </a>
                 </div>
 
@@ -27,7 +27,7 @@
                     <li>
                         @foreach($imagesGalleries as $imagesGallery)
                             <a href="{{url('products/large',$imagesGallery->image)}}" data-standard="{{url('products/small',$imagesGallery->image)}}">
-                                <img src="{{url('products/small',$imagesGallery->image)}}" alt="" width="75" style="padding: 8px;">
+                                <img src="{{url('products/small',$imagesGallery->image)}}" alt="" width="75" height="75" style="padding: 8px;">
                             </a>
                         @endforeach
                     </li>
@@ -56,7 +56,7 @@
                         <span>
                             <span id="dynamic_price">US ${{$detail_product->price}}</span>
                             <label>Quantity:</label>
-                            <input type="text" name="quantity" value="{{$totalStock}}" id="inputStock"/>
+                            <input type="text" name="quantity" value="1" id="inputStock"/>
                             @if($totalStock>0)
                             <button type="submit" class="btn btn-fefault cart" id="buttonAddToCart">
                                 <i class="fa fa-shopping-cart"></i>
@@ -64,15 +64,14 @@
                             </button>
                             @endif
                         </span>
-                        <p><b>Availability:</b>
+                        <p><b>Stock:</b>
                             @if($totalStock>0)
-                                <span id="availableStock">In Stock</span>
+                                <span id="availableStock">{{$totalStock}}</span>
                             @else
                                 <span id="availableStock">Out of Stock</span>
                             @endif
                         </p>
                         <p><b>Condition:</b> New</p>
-                        <a href=""><img src="{{asset('frontEnd/images/product-details/share.png')}}" class="share img-responsive"  alt="" /></a>
                     </div><!--/product-information-->
                 </form>
 
@@ -83,8 +82,8 @@
             <div class="col-sm-12">
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#details" data-toggle="tab">Details</a></li>
-                    <li><a href="#companyprofile" data-toggle="tab">Company Profile</a></li>
-                    <li><a href="#reviews" data-toggle="tab">Reviews (5)</a></li>
+                    <!-- <li><a href="#companyprofile" data-toggle="tab">Company Profile</a></li>
+                    <li><a href="#reviews" data-toggle="tab">Reviews (5)</a></li> -->
                 </ul>
             </div>
             <div class="tab-content">
@@ -185,9 +184,9 @@
                                         <div class="single-products">
                                             <div class="productinfo text-center">
                                                 <img src="{{url('/products/small',$item->image)}}" alt="" style="width: 150px;"/>
-                                                <h2>{{$item->price}}</h2>
+                                                <h2>$ {{$item->price}}</h2>
                                                 <p>{{$item->p_name}}</p>
-                                                <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                                <a href="{{url('/product-detail',$item->id)}}" class="btn btn-default add-to-cart">View Product</a>
                                             </div>
                                         </div>
                                     </div>

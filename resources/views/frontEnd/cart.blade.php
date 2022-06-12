@@ -37,7 +37,7 @@
                                                 style="width: 100px;"></a>
                                     @endforeach
                                 </td>
-                                <td class="cart_description">
+                                <td class="cart_description" style="padding-left: 50px;">
                                     <h4><a href="">{{ $cart_data->product_name }}</a></h4>
                                     <p>{{ $cart_data->product_code }} | {{ $cart_data->size }}</p>
                                 </td>

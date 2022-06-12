@@ -30,8 +30,6 @@ $(document).ready(function(){
 				}else if(resp=="true"){
                     $("#chCategory_name").html("<span style='color: red;'>The name has already been taken.</span>");
 				}
-            },error:function () {
-				alert("Error Ajax");
             }
 		});
     });

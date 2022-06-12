@@ -12,7 +12,8 @@
         "laravel/helpers": "^1.5",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
-        "laravel/ui": "^3.4"
+        "laravel/ui": "^3.4",
+        "phpmetrics/phpmetrics": "^2.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

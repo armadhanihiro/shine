@@ -7,19 +7,15 @@
                 <div class="col-sm-6">
                     <div class="contactinfo">
                         <ul class="nav nav-pills">
-                            <li><a href="#"><i class="fa fa-phone"></i> 089639361888</a></li>
-                            <li><a href="#"><i class="fa fa-envelope"></i> indomie@nodomain.com</a></li>
+                            <li><a href="#"><i class="fa fa-phone"></i> 081234567892</a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i> kelompok7@shine.com</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="social-icons pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://github.com/armadhanihiro/Tugas-Besar-RPL-Desain-dan-Implementasi"><i class="fa fa-github"></i> Github </a></li>
                         </ul>
                     </div>
                 </div>
@@ -105,16 +101,16 @@
                                     <li><a href="{{ url('/viewcart') }}">Cart</a></li>
                                 </ul>
                             </li>
-                            <li><a href="" target="_blank">Contact</a></li>
+                            <!-- <li><a href="" target="_blank">Contact</a></li> -->
 
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <!-- <div class="col-sm-3">
                     <div class="search_box pull-right">
                         <input type="text" placeholder="Search" />
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

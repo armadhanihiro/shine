@@ -37,16 +37,16 @@ $(document).ready(function(){
                 data:{size:SizeAttr},
                 success:function(resp){
                 	var arr=resp.split("#");
-                    $("#dynamic_price").html('US $'+arr[0]);
+                    $("#dynamic_price").html('Rp. '+arr[0]);
                     $("#dynamicPriceInput").val(arr[0]);
                     if(arr[1]==0){
 						$("#buttonAddToCart").hide();
 						$("#availableStock").text("Out Of Stock");
-                        $("#inputStock").val(0);
+                        $("#inputStock").val(1);
 					}else{
                         $("#buttonAddToCart").show();
-                        $("#availableStock").text("In Stock");
-                        $("#inputStock").val(arr[1]);
+                        $("#availableStock").html(arr[1]);
+                        $("#inputStock").val(1);
 					}
                 },error:function () {
                     alert("Error Select Size");

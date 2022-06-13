@@ -82,7 +82,7 @@ class DatabaseSeeder extends Seeder
             'description' => "Polo Shirt Original Premium Jersey Cotton Mix
             Matsuda - Your Everyday Premium Clothing
             Bahan premium comfort",
-            'price' => 10,
+            'price' => 100000,
             'image' => 'fp-1.jpg'
 
 
@@ -91,21 +91,21 @@ class DatabaseSeeder extends Seeder
             'products_id' => 1,
             'sku' => "FP1-S",
             'size' => "S",
-            'price' => 10,
+            'price' => 100000,
             'stock' => 10
         ]);
         ProductAtrr_model::create([
             'products_id' => 1,
             'sku' => "FP1-L",
             'size' => "L",
-            'price' => 15,
+            'price' => 150000,
             'stock' => 15
         ]);
         ProductAtrr_model::create([
             'products_id' => 1,
             'sku' => "FP1-XL",
             'size' => "XL",
-            'price' => 20,
+            'price' => 200000,
             'stock' => 20
         ]);
 
@@ -122,7 +122,7 @@ class DatabaseSeeder extends Seeder
             Krah slim
             Tidak ber-saku - polos
             Cocok dipakai untuk acara formal - casual maupun nonformalt",
-            'price' => 20,
+            'price' => 200000,
             'image' => 'fp-2.jpg'
 
 
@@ -131,21 +131,21 @@ class DatabaseSeeder extends Seeder
             'products_id' => 2,
             'sku' => "FP2-S",
             'size' => "S",
-            'price' => 20,
+            'price' => 200000,
             'stock' => 10
         ]);
         ProductAtrr_model::create([
             'products_id' => 2,
             'sku' => "FP2-L",
             'size' => "L",
-            'price' => 23,
+            'price' => 230000,
             'stock' => 15
         ]);
         ProductAtrr_model::create([
             'products_id' => 2,
             'sku' => "FP2-XL",
             'size' => "XL",
-            'price' => 24,
+            'price' => 240000,
             'stock' => 20
         ]);
         
@@ -158,7 +158,7 @@ class DatabaseSeeder extends Seeder
             'p_code' => "FP-3",
             'p_color' => "Hitam",
             'description' => "Sepatu Pantofel karet merk Sankyo design baru yang lebih modern dan casual. bahan lentur dan tidak mudah sobek, cocok untuk kegiatan sehari-hari atau untuk kerja. Juga cocok untuk hujan",
-            'price' => 50,
+            'price' => 500000,
             'image' => 'fp-3.jpg'
 
 
@@ -167,21 +167,21 @@ class DatabaseSeeder extends Seeder
             'products_id' => 3,
             'sku' => "FP3-39",
             'size' => "39",
-            'price' => 50,
+            'price' => 500000,
             'stock' => 60
         ]);
         ProductAtrr_model::create([
             'products_id' => 3,
             'sku' => "FP3-40",
             'size' => "40",
-            'price' => 50,
+            'price' => 500000,
             'stock' => 70
         ]);
         ProductAtrr_model::create([
             'products_id' => 3,
             'sku' => "FP3-43",
             'size' => "43",
-            'price' => 53,
+            'price' => 530000,
             'stock' => 50
         ]);
 
@@ -193,7 +193,7 @@ class DatabaseSeeder extends Seeder
             'p_code' => "FP-4",
             'p_color' => "Hitam",
             'description' => "Hoodie bertema keinginan dan kemauan untuk bangkit dari keterpurukan di tengah krisis dan kondisi bertahan hidup bersama semua akan jadi lebih baik menjadi Campaign kami di Pertengahan tahun ini.",
-            'price' => 45,
+            'price' => 450000,
             'image' => 'fp-4.jpg'
 
 
@@ -202,21 +202,21 @@ class DatabaseSeeder extends Seeder
             'products_id' => 4,
             'sku' => "FP4-S",
             'size' => "S",
-            'price' => 45,
+            'price' => 450000,
             'stock' => 60
         ]);
         ProductAtrr_model::create([
             'products_id' => 4,
             'sku' => "FP4-L",
             'size' => "L",
-            'price' => 45,
+            'price' => 450000,
             'stock' => 70
         ]);
         ProductAtrr_model::create([
             'products_id' => 4,
             'sku' => "FP4-XL",
             'size' => "XL",
-            'price' => 47,
+            'price' => 470000,
             'stock' => 50
         ]);
 
@@ -228,7 +228,7 @@ class DatabaseSeeder extends Seeder
             'p_code' => "FP-5",
             'p_color' => "Hitam",
             'description' => "The New Era A Frame 9FORTY Adjustable Cap features a distressed New Era patch at the front panels and an adjustable snapback closure at the rear.",
-            'price' => 30,
+            'price' => 300000,
             'image' => 'fp-5.jpg'
 
 
@@ -237,7 +237,7 @@ class DatabaseSeeder extends Seeder
             'products_id' => 5,
             'sku' => "FP5-AS",
             'size' => "All Size",
-            'price' => 30,
+            'price' => 300000,
             'stock' => 60
         ]);
 
@@ -249,7 +249,7 @@ class DatabaseSeeder extends Seeder
             'p_code' => "FP-6",
             'p_color' => "Hitam",
             'description' => "Grey Jack adalah salah satu merek kacamata terkemuka di dunia. Dalam beberapa tahun Grey Jack menjadi populer dengan berbagai klien dengan grosir dan ritel di seluruh dunia.terutama di Amerika Serikat, timur tengah , india, filipina, dll.",
-            'price' => 35,
+            'price' => 350000,
             'image' => 'fp-6.jpg'
 
 
@@ -258,7 +258,7 @@ class DatabaseSeeder extends Seeder
             'products_id' => 12,
             'sku' => "FP6-AS",
             'size' => "All Size",
-            'price' => 35,
+            'price' => 350000,
             'stock' => 80
         ]);
 
@@ -277,7 +277,7 @@ class DatabaseSeeder extends Seeder
             TUTUP : BESI EMAS (DIPUTAR)
             PACKING PLASTIK
             BERAT 300 GRAM.",
-            'price' => 20,
+            'price' => 200000,
             'image' => 'fw-1.jpg'
 
 
@@ -286,7 +286,7 @@ class DatabaseSeeder extends Seeder
             'products_id' => 6,
             'sku' => "FW1-AS",
             'size' => "All Size",
-            'price' => 20,
+            'price' => 200000,
             'stock' => 70
         ]);
 
@@ -303,7 +303,7 @@ class DatabaseSeeder extends Seeder
             LD100,
             P65,
             dpn kancing full good quality",
-            'price' => 15,
+            'price' => 150000,
             'image' => 'fw-2.jpg'
 
 
@@ -312,14 +312,14 @@ class DatabaseSeeder extends Seeder
             'products_id' => 7,
             'sku' => "FW2-L",
             'size' => "L",
-            'price' => 15,
+            'price' => 150000,
             'stock' => 70
         ]);
         ProductAtrr_model::create([
             'products_id' => 7,
             'sku' => "FW2-XL",
             'size' => "XL",
-            'price' => 25,
+            'price' => 250000,
             'stock' => 70
         ]);
 
@@ -335,7 +335,7 @@ class DatabaseSeeder extends Seeder
             Dengan Bahan yang Terbuat dari GRISELLA IMPORT Sehingga Anda Tetap Bebas Bergerak dan Tetap Merasa Sejuk Selama Pemakaian, Bahkan Saat Cuaca Panas Sekalipun.
             Sangat Dibutuhkan Bagi Anda yang Ingin Berpenampilan Cantik dan Menarik.
             Bahan Terbaik Untuk Busana Kerja, Lentur, Adem, Tidak Mudah Kusut",
-            'price' => 30,
+            'price' => 300000,
             'image' => 'fw-3.jpg'
 
 
@@ -344,14 +344,14 @@ class DatabaseSeeder extends Seeder
             'products_id' => 8,
             'sku' => "FW3-L",
             'size' => "L",
-            'price' => 30,
+            'price' => 300000,
             'stock' => 50
         ]);
         ProductAtrr_model::create([
             'products_id' => 8,
             'sku' => "FW3-XL",
             'size' => "XL",
-            'price' => 35,
+            'price' => 350000,
             'stock' => 30
         ]);
 
@@ -363,7 +363,7 @@ class DatabaseSeeder extends Seeder
             'p_code' => "FW-4",
             'p_color' => "Putih",
             'description' => "Tas Wanita Elegan Import. Toko ini adalah toko online tas wanita dan tas pria di Jakarta. Semua Tas Handbag Selempang Wanita Elegan Import yang dijual di Toko ini adalah 100% import.",
-            'price' => 23,
+            'price' => 230000,
             'image' => 'fw-4.jpg'
 
 
@@ -372,7 +372,7 @@ class DatabaseSeeder extends Seeder
             'products_id' => 9,
             'sku' => "FW4-AS",
             'size' => "All Size",
-            'price' => 23,
+            'price' => 230000,
             'stock' => 43
         ]);
 
@@ -395,7 +395,7 @@ class DatabaseSeeder extends Seeder
             * Bagian bawah mayung
             * Semua produk kami QC dahulu sebelum dikirim
             * Ada tali pinggangnya ( bisa pisah / bisa menyatu dengan dressnya ya tidak bisa request)",
-            'price' => 35,
+            'price' => 350000,
             'image' => 'fw-5.jpg'
 
 
@@ -404,21 +404,21 @@ class DatabaseSeeder extends Seeder
             'products_id' => 10,
             'sku' => "FW5-S",
             'size' => "S",
-            'price' => 35,
+            'price' => 350000,
             'stock' => 30
         ]);
         ProductAtrr_model::create([
             'products_id' => 10,
             'sku' => "FW5-L",
             'size' => "L",
-            'price' => 35,
+            'price' => 350000,
             'stock' => 50
         ]);
         ProductAtrr_model::create([
             'products_id' => 10,
             'sku' => "FW5-XL",
             'size' => "XL",
-            'price' => 40,
+            'price' => 400000,
             'stock' => 50
         ]);
 
@@ -436,7 +436,7 @@ class DatabaseSeeder extends Seeder
             -Tangn karet
             -ada kantong saku
             -Tanpa kerudung",
-            'price' => 40,
+            'price' => 400000,
             'image' => 'fw-6.jpg'
 
 
@@ -445,21 +445,21 @@ class DatabaseSeeder extends Seeder
             'products_id' => 11,
             'sku' => "FW6-S",
             'size' => "S",
-            'price' => 40,
+            'price' => 400000,
             'stock' => 30
         ]);
         ProductAtrr_model::create([
             'products_id' => 11,
             'sku' => "FW5-L",
             'size' => "L",
-            'price' => 40,
+            'price' => 400000,
             'stock' => 50
         ]);
         ProductAtrr_model::create([
             'products_id' => 11,
             'sku' => "FW6-XL",
             'size' => "XL",
-            'price' => 45,
+            'price' => 450000,
             'stock' => 50
         ]);
 
@@ -476,7 +476,7 @@ class DatabaseSeeder extends Seeder
             
             TSHIRT ORIGINAL 100%
             BAHAN : 100% POLYSTER CRYSTAL SILK BRAND NEW",
-            'price' => 20,
+            'price' => 200000,
             'image' => 'ol-1.jpg'
 
 
@@ -485,21 +485,21 @@ class DatabaseSeeder extends Seeder
             'products_id' => 13,
             'sku' => "OL-S",
             'size' => "S",
-            'price' => 20,
+            'price' => 200000,
             'stock' => 30
         ]);
         ProductAtrr_model::create([
             'products_id' => 13,
             'sku' => "OL-L",
             'size' => "L",
-            'price' => 25,
+            'price' => 250000,
             'stock' => 50
         ]);
         ProductAtrr_model::create([
             'products_id' => 13,
             'sku' => "OL-XL",
             'size' => "XL",
-            'price' => 30,
+            'price' => 300000,
             'stock' => 50
         ]);
 
@@ -514,7 +514,7 @@ class DatabaseSeeder extends Seeder
             JOGGER SPORT DEWASA PANJANG dan TRACKPANTS SAKU SLETING
             -BAHAN : TERRY
             -SABLON :POLIPLEX",
-            'price' => 40,
+            'price' => 400000,
             'image' => 'ol-2.jpg'
 
 
@@ -523,14 +523,14 @@ class DatabaseSeeder extends Seeder
             'products_id' => 14,
             'sku' => "OL-L",
             'size' => "L",
-            'price' => 40,
+            'price' => 400000,
             'stock' => 70
         ]);
         ProductAtrr_model::create([
             'products_id' => 14,
             'sku' => "OL-XL",
             'size' => "XL",
-            'price' => 43,
+            'price' => 430000,
             'stock' => 40
         ]);
 
@@ -548,7 +548,7 @@ class DatabaseSeeder extends Seeder
             - Kepala Resleting besi
             - Ada penutup kepala/hoodie (tidak bisa dilepas)
             - 2 Saku depan kiri kanan (jenis sleting)",
-            'price' => 25,
+            'price' => 250000,
             'image' => 'ol-3.jpg'
 
 
@@ -557,14 +557,14 @@ class DatabaseSeeder extends Seeder
             'products_id' => 15,
             'sku' => "OL-L",
             'size' => "L",
-            'price' => 25,
+            'price' => 250000,
             'stock' => 70
         ]);
         ProductAtrr_model::create([
             'products_id' => 15,
             'sku' => "OL-XL",
             'size' => "XL",
-            'price' => 30,
+            'price' => 300000,
             'stock' => 74
         ]);
 
@@ -579,7 +579,7 @@ class DatabaseSeeder extends Seeder
             Ukuran : Panjang 52 cm x Tinggi 28 cm x Lebar 25 cm (Panjang tali slempang 120 cm)
             Detail : Bagian bawah lapis busa, jahitan rapi dan kuat
             Penggunaan : Bisa Digendong, Diselempang dan Dijinjing",
-            'price' => 25,
+            'price' => 250000,
             'image' => 'ol-3.jpg'
 
 
@@ -588,7 +588,7 @@ class DatabaseSeeder extends Seeder
             'products_id' => 16,
             'sku' => "OL-AS",
             'size' => "All Size",
-            'price' => 25,
+            'price' => 250000,
             'stock' => 90
         ]);
 
@@ -600,7 +600,7 @@ class DatabaseSeeder extends Seeder
             'p_code' => "OL-5",
             'p_color' => "Hitam",
             'description' => "Cordura Series dari Elfs, kali ini mengeluarkan design Tas yang multifungsi untuk berbagai macam aktivitas mu sekaligus. cocok digunakan untuk travel, atau gym, kapasitas ruang sangat luas, bisa muat untuk semua kebutuhan. cara pemakaiannya juga bisa sebagai tas ransel ataupun di tenteng sesuai keperluan",
-            'price' => 45,
+            'price' => 450000,
             'image' => 'ol-4.jpg'
 
 
@@ -609,7 +609,7 @@ class DatabaseSeeder extends Seeder
             'products_id' => 17,
             'sku' => "OL-AS",
             'size' => "All Size",
-            'price' => 45,
+            'price' => 450000,
             'stock' => 90
         ]);
 
@@ -626,7 +626,7 @@ class DatabaseSeeder extends Seeder
             - Rubber Band Adjuster (Fleksible Nyaman di pakai)
             - Elastic Rubber string & Adjustable Side Seal (Enak dan sesuai dengan segala jenis bentuk wajah/kepala)
             - Hard Impact Protector (Aman Sekali karena bahannya kuat tahan benturan)",
-            'price' => 35,
+            'price' => 350000,
             'image' => 'ol-5.jpg'
 
 
@@ -635,7 +635,7 @@ class DatabaseSeeder extends Seeder
             'products_id' => 18,
             'sku' => "OL-AS",
             'size' => "All Size",
-            'price' => 35,
+            'price' => 350000,
             'stock' => 60
         ]);
         

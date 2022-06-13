@@ -49,7 +49,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>{{ $shipping_address->name }}</td>
+                                    <td >{{ $shipping_address->name }}</td>
                                     <td>{{ $shipping_address->address }}</td>
                                     <td>{{ $shipping_address->city }}</td>
                                     <td>{{ $shipping_address->state }}</td>
@@ -69,7 +69,7 @@
                                 <thead>
                                     <tr class="cart_menu">
                                         <td class="image">Item</td>
-                                        <td class="description"></td>
+                                        <td class="description" "></td>
                                         <td class="price">Price</td>
                                         <td class="quantity">Quantity</td>
                                         <td class="total">Total</td>
@@ -91,18 +91,20 @@
                                                             alt="" style="width: 100px;"></a>
                                                 @endforeach
                                             </td>
-                                            <td class="cart_description">
+                                    
+
+                                            <td class="cart_description"  >
                                                 <h4><a href="">{{ $cart_data->product_name }}</a></h4>
                                                 <p>{{ $cart_data->product_code }} | {{ $cart_data->size }}</p>
                                             </td>
                                             <td class="cart_price">
-                                                <p>${{ $cart_data->price }}</p>
+                                                <p>Rp.{{ $cart_data->price }}</p>
                                             </td>
                                             <td class="cart_quantity">
                                                 <p>{{ $cart_data->quantity }}</p>
                                             </td>
                                             <td class="cart_total">
-                                                <p class="cart_total_price">$
+                                                <p class="cart_total_price">Rp.
                                                     {{ $cart_data->price * $cart_data->quantity }}
                                                 </p>
                                             </td>
@@ -114,23 +116,23 @@
                                             <table class="table table-condensed total-result">
                                                 <tr>
                                                     <td>Cart Sub Total</td>
-                                                    <td>$ {{ $total_price }}</td>
+                                                    <td>Rp. {{ $total_price }}</td>
                                                 </tr>
                                                 @if (Session::has('discount_amount_price'))
                                                     <tr class="shipping-cost">
                                                         <td>Coupon Discount</td>
-                                                        <td>$ {{ Session::get('discount_amount_price') }}</td>
+                                                        <td>Rp. {{ Session::get('discount_amount_price') }}</td>
                                                     </tr>
                                                     <tr>
                                                         <td>Total</td>
-                                                        <td><span>$
+                                                        <td><span>Rp.
                                                                 {{ $total_price - Session::get('discount_amount_price') }}</span>
                                                         </td>
                                                     </tr>
                                                 @else
                                                     <tr>
                                                         <td>Total</td>
-                                                        <td><span>$ {{ $total_price }}</span></td>
+                                                        <td><span>Rp. {{ $total_price }}</span></td>
                                                     </tr>
                                                 @endif
                                             </table>

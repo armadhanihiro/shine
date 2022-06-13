@@ -54,7 +54,7 @@
                         </select>
                         </span><br>
                         <span>
-                            <span id="dynamic_price">US ${{$detail_product->price}}</span>
+                            <span id="dynamic_price">Rp.{{$detail_product->price}}</span>
                             <label>Quantity:</label>
                             <input type="text" name="quantity" value="1" id="inputStock"/>
                             @if($totalStock>0)
@@ -184,7 +184,7 @@
                                         <div class="single-products">
                                             <div class="productinfo text-center">
                                                 <img src="{{url('/products/small',$item->image)}}" alt="" style="width: 150px;"/>
-                                                <h2>$ {{$item->price}}</h2>
+                                                <h2>Rp. {{$item->price}}</h2>
                                                 <p>{{$item->p_name}}</p>
                                                 <a href="{{url('/product-detail',$item->id)}}" class="btn btn-default add-to-cart">View Product</a>
                                             </div>
